@@ -100,7 +100,7 @@ public class Database extends SQLiteOpenHelper {
             do {
                 String product = cr.getString(1);
                 String price = cr.getString(2);
-                arr.add(product+"$"+price);
+                arr.add(product+"Rs."+price);
             }while(cr.moveToNext());
 
         }
